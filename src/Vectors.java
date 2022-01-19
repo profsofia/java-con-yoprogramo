@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Vectors{
 
-    
-    /*
+    public static int $vector(){
+     /*
     Arrays unidimensionales (vectores)
     En Java se declaran especificando el tipo de dato que almacenarán, el nombre y la identificación []
     */
-    int [] vector1 = new int[5];
+    int[] vector1 = new int[5];
 
     vector1[0]= 0;
     vector1[1]= 3;
@@ -37,4 +37,6 @@ public class Vectors{
             vector2[j] = key ;
         }
     }
+    }
+    
 }
