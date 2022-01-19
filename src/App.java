@@ -20,8 +20,8 @@ public class App {
      * La sobrecarga en Java es la capacidad de definir más de un método con el mismo nombre en una clase.
      * Acá veremos un método que tiene el mismo nombre que min, pero difiere en el tipo de parámetros.
      */
-    public static int min_max(double n1, double n2) {
-        int maximum;
+    public static double min_max(double n1, double n2) {
+        double maximum;
         if(n1>n2) 
            maximum =n1;
         else

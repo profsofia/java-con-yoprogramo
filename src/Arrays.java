@@ -1,18 +1,15 @@
-public class Arrays{
-    /*
-    Arrays unidimensionales (vectores)
-    En Java se declaran especificando el tipo de dato que almacenarán, el nombre y la identificación []
-    */
-    int succession[] = new int[5];
-    succession[0]= 0;
-    succession[1]= 3;
-    succession[2]= 6;
-    succession[3]= 9;
-    succession[4]= 12;
-    for(int i=0; i<succession.length; i++){
-        //Recorremos el arreglo en sentido creciente
-        System.out.println("La posición del Array es: " + i);
-        System.out.println("El contendo es: " + succession[i]);
-    }
+public class Arrays {
+    int array [][] = new int [3][3];
+//El primer valor entre corchetes pertenece a las filas y el segundo a las columnas.
+    array[0][0] = 1;
+    array[0][1] = 2;
+    array[0][2] = 3;
+    array[1][0] = 4;
+    array[1][1] = 5;
+    array[1][2] = 6;
+    array[2][0] = 7;
+    array[2][1] = 8;
+    array[2][2] = 9;
+
 
 }
